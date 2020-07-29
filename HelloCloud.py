@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<h1>Hello RUK-COM is Great KUB!</h1>'
+    return '<h1>Hello RUK-COM is Great KUB and better than you!</h1>'
 
 @app.route('/home', methods=['GET', 'POST'])
 def home():
